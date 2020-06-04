@@ -1,0 +1,164 @@
+:root {
+  font-size: 16px;
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  padding: 2% 0 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+
+}
+
+.btn {
+  margin: 8% 10%;
+  width: 53%;
+  height: 15%;
+  background-color: hsl(71, 73%, 54%);
+}
+
+.div1 {
+  height: 50vh;
+}
+
+.div2 {
+  height: 50vh;
+  background-color: #3c9d9b;
+}
+
+.div3 {
+  height: 50vh;
+  background-color: hsl(179, 62%, 43%);
+}
+
+h3 {
+  color: hsl(179, 62%, 43%);
+}
+.dollar{
+
+}
+
+.div1 h3 {
+  margin: 5% 5% 2%;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.div1 h4 {
+  margin: 2% 5%;
+  color: hsl(71, 73%, 54%);
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.div1 h5 {
+  margin: 0 5%;
+  line-height: 1.8;
+  color: hsl(218, 22%, 67%);
+  font-weight: 400;
+  font-size: 1.8rem;
+  width: 70%;
+}
+
+.div2 h4 {
+  padding: 10% 10% 3%;
+  color: white;
+  font-weight: 700;
+}
+
+.dollar{
+  display: inline-block;
+    padding: 0 2% 0 10%;
+    font-size: xxx-large;
+    color: white;
+
+}
+.month{
+  display: inline-block;
+      font-size: x-large;
+      position: relative;
+      bottom: 1vh;
+      color: hsl(204, 43%, 93%);
+}
+
+
+.div2 h5 {
+  padding: 0 10%;
+    color: hsl(204, 43%, 93%);
+
+}
+
+.div3 h4 {
+  padding: 10% 10% 2%;
+  color: white;
+}
+
+.div3 h5 {
+  padding: 0 10%;
+  line-height: 1.5;
+  color: hsl(204, 43%, 93%);
+}
+
+@media (max-width:500px) {
+  .div1 {
+    height:50vh;
+  }
+  .div2{
+    height:45vh;
+  }
+  .div3{
+    height:43vh;
+  }
+  .div1 h3{
+    margin: 7% 5% 5%;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .div1 h4 {
+      margin: 2% 5% 5%;
+      color: hsl(71, 73%, 54%);
+      font-weight: 700;
+      font-size: 1.6rem;
+  }
+  .div1 h5 {
+    margin: 0 5%;
+    line-height: 1.8;
+    color: hsl(218, 22%, 67%);
+    font-weight: 700;
+    font-size: 1.2rem;
+    width: 87%;
+}
+.div2 h4 {
+    padding: 10% 10% 3%;
+    color: white;
+    font-weight: 700;
+}
+.div2 h1 {
+    padding: 0 10%;
+}
+.div2 h5 {
+    padding: 1% 10% 0;
+    font-size: 1.4rem;
+}
+.btn {
+    margin: 6% 10% 0;
+    width: 80%;
+    height: 20%;
+    background-color: hsl(71, 73%, 54%);
+}
+.div3 h5 {
+    padding: 0 10%;
+    line-height: 1.5;
+    color: hsl(204, 43%, 93%);
+    font-size: 1.2rem;
+
+}
+}
